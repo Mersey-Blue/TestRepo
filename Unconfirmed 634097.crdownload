@@ -1,8 +1,8 @@
 users = {"user1": "password1", "user2": "password2"}
 
 def login():
-    username = input("Enter your username: ")
-    password = input("Enter your password: ")
+    username = input("Please enter your username: ")
+    password = input("Please enter your password: ")
     
     if username in users:
         if users[username] == password:
